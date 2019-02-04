@@ -1,10 +1,12 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  align-items: baseline;
 }
 
 .left-nav > ul > li {
